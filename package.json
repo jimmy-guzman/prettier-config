@@ -1,0 +1,59 @@
+{
+  "name": "@jimmy.codes/prettier-config",
+  "version": "0.0.0",
+  "description": "My personal prettier config",
+  "keywords": [
+    "prettier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimmy-guzman/prettier-config.git"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "format": "prettier --config ./index.js --check --cache .",
+    "format:fix": "prettier --config ./index.js --write --cache .",
+    "prepack": "clean-pkg-json",
+    "prepare": "lefthook install"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "0.5.13"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "19.1.0",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "12.0.0",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/npm": "12.0.0",
+    "@semantic-release/release-notes-generator": "13.0.0",
+    "clean-pkg-json": "1.2.0",
+    "commitlint": "19.2.1",
+    "gitzy": "5.2.0",
+    "lefthook": "1.6.8",
+    "prettier": "3.2.5",
+    "semantic-release": "23.0.6"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">= 20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "typescript",
+        "@types/node"
+      ]
+    }
+  },
+  "gitzy": {
+    "useCommitlintConfig": true
+  }
+}
