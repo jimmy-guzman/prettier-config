@@ -1,0 +1,30 @@
+name: cd
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🏗 Setup Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 📦 Install
+        uses: ./.github/actions/install
+
+      - name: 🎨 Format
+        run: pnpm format
+
+      - name: 🚀 Publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: pnpm exec semantic-release --branches main
