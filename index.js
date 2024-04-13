@@ -9,7 +9,7 @@ module.exports = {
   quoteProps: "consistent",
   overrides: [
     {
-      files: "pnpm-lock.yaml",
+      files: ["pnpm-lock.yaml", "CHANGELOG.md"],
       options: {
         rangeEnd: 0,
       },
