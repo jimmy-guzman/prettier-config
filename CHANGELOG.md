@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/jimmy-guzman/prettier-config/compare/v1.0.1...v1.0.2) (2024-04-13)
+
+
+### Bug Fixes
+
+* 🐛 ignore `CHANGELOG.md` from formatting ([#6](https://github.com/jimmy-guzman/prettier-config/issues/6)) ([30ea713](https://github.com/jimmy-guzman/prettier-config/commit/30ea713eaf68c96f96c3a7e95c64723577f3049f))
+
 ## [1.0.1](https://github.com/jimmy-guzman/prettier-config/compare/v1.0.0...v1.0.1) (2024-04-03)
 
 
