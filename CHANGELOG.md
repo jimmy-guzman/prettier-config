@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.0.2...v1.1.0) (2024-04-16)
+
+
+### Features
+
+* ✨ add `astro` support ([7c73663](https://github.com/jimmy-guzman/prettier-config/commit/7c73663b867be1729a2253bdeb8fa0ac19923c69))
+
 ## [1.0.2](https://github.com/jimmy-guzman/prettier-config/compare/v1.0.1...v1.0.2) (2024-04-13)
 
 
