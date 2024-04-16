@@ -14,6 +14,13 @@ module.exports = {
         rangeEnd: 0,
       },
     },
+    {
+      files: "*.astro",
+      options: {
+        parser: "astro",
+        astroAllowShorthand: true,
+      },
+    },
   ],
-  plugins: ["prettier-plugin-tailwindcss"],
+  plugins: ["prettier-plugin-tailwindcss", "prettier-plugin-astro"],
 };
