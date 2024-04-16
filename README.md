@@ -6,7 +6,14 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://semantic-release.gitbook.io/semantic-release)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square&logo=prettier)](https://github.com/prettier/prettier)
 
-> 💄 my personal [prettier](https://prettier.io) config
+> 💄 My personal [prettier](https://prettier.io) config
+
+## 🐣 Features
+
+- Supports `tailwindcss` through [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+- Supports `astro` through [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)
+- Ignores `pnpm-lock.yaml`
+- Uses `prettier`'s defaults except for `quoteProps` which is set as `"consistent"`
 
 ## 🛠️ Usage
 
