@@ -38,8 +38,8 @@ devDependencies:
     specifier: 19.2.1
     version: 19.2.1
   gitzy:
-    specifier: 5.2.0
-    version: 5.2.0
+    specifier: 5.4.0
+    version: 5.4.0
   is-ci:
     specifier: 3.0.1
     version: 3.0.1
@@ -1140,14 +1140,14 @@ packages:
       split2: 4.2.0
     dev: true
 
-  /gitzy@5.2.0:
-    resolution: {integrity: sha512-Wd9ktB/Uh+Uc+gMHmrL2seKA9e2CnetD2eg/B/meYkeZbpn1qElzbRn/oEcTlxaD5/aK4pVe0OvQ3926M8t2xQ==}
+  /gitzy@5.4.0:
+    resolution: {integrity: sha512-lii2a031AzJ5iT1+gl2fb4MHmK/65xuX5Nr2ZNRwaK4TFvHMd6GMZk7BuMcxc3+DSFWC7AxWGXLkWFSq9NP3bg==}
     engines: {node: '>= 18'}
     hasBin: true
     dependencies:
       commander: 11.1.0
       enquirer: 2.4.1
-      lilconfig: 2.1.0
+      lilconfig: 3.1.1
       yaml: 2.4.1
     dev: true
 
@@ -1538,9 +1538,9 @@ packages:
       lefthook-windows-x64: 1.6.8
     dev: true
 
-  /lilconfig@2.1.0:
-    resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
-    engines: {node: '>=10'}
+  /lilconfig@3.1.1:
+    resolution: {integrity: sha512-O18pf7nyvHTckunPWCV1XUNXU1piu01y2b7ATJ0ppkUkk8ocqVWBrYjJBCwHDjD/ZWcfyrA0P4gKhzWGi5EINQ==}
+    engines: {node: '>=14'}
     dev: true
 
   /lines-and-columns@1.2.4:
