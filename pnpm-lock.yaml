@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   prettier-plugin-astro:
-    specifier: 0.13.0
-    version: 0.13.0
+    specifier: 0.14.1
+    version: 0.14.1
   prettier-plugin-tailwindcss:
     specifier: 0.5.13
-    version: 0.5.13(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
+    version: 0.5.13(prettier-plugin-astro@0.14.1)(prettier@3.2.5)
 
 devDependencies:
   '@commitlint/config-conventional':
@@ -55,8 +55,8 @@ devDependencies:
 
 packages:
 
-  /@astrojs/compiler@1.8.2:
-    resolution: {integrity: sha512-o/ObKgtMzl8SlpIdzaxFnt7SATKPxu4oIP/1NL+HDJRzxfJcAkOTAb/ZKMRyULbz4q+1t2/DAebs2Z1QairkZw==}
+  /@astrojs/compiler@2.9.1:
+    resolution: {integrity: sha512-s8Ge2lWHx/s3kl4UoerjL/iPtwdtogNM/BLOaGCwQA6crMOVYpphy5wUkYlKyuh8GAeGYH/5haLAFBsgNy9AQQ==}
     dev: false
 
   /@babel/code-frame@7.24.2:
@@ -2027,16 +2027,16 @@ packages:
       load-json-file: 4.0.0
     dev: true
 
-  /prettier-plugin-astro@0.13.0:
-    resolution: {integrity: sha512-5HrJNnPmZqTUNoA97zn4gNQv9BgVhv+et03314WpQ9H9N8m2L9OSV798olwmG2YLXPl1iSstlJCR1zB3x5xG4g==}
+  /prettier-plugin-astro@0.14.1:
+    resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
-      '@astrojs/compiler': 1.8.2
+      '@astrojs/compiler': 2.9.1
       prettier: 3.2.5
       sass-formatter: 0.7.9
     dev: false
 
-  /prettier-plugin-tailwindcss@0.5.13(prettier-plugin-astro@0.13.0)(prettier@3.2.5):
+  /prettier-plugin-tailwindcss@0.5.13(prettier-plugin-astro@0.14.1)(prettier@3.2.5):
     resolution: {integrity: sha512-2tPWHCFNC+WRjAC4SIWQNSOdcL1NNkydXim8w7TDqlZi+/ulZYz2OouAI6qMtkggnPt7lGamboj6LcTMwcCvoQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -2089,7 +2089,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.2.5
-      prettier-plugin-astro: 0.13.0
+      prettier-plugin-astro: 0.14.1
     dev: false
 
   /prettier@3.2.5:
