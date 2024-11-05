@@ -43,20 +43,12 @@
   "peerDependencies": {
     "prettier": "^3.0"
   },
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.12.3",
   "engines": {
     "node": ">= 20"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "typescript",
-        "@types/node"
-      ]
-    }
   },
   "gitzy": {
     "useCommitlintConfig": true
