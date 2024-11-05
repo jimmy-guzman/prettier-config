@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.1.0...v1.2.0) (2024-11-05)
+
+
+### Features
+
+* ✨ ignore `*.gen.*` generated files ([9ba9546](https://github.com/jimmy-guzman/prettier-config/commit/9ba9546eef3cba9116723df2ac81807731b685bf))
+
 # [1.1.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.0.2...v1.1.0) (2024-04-16)
 
 
