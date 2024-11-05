@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.2.0...v1.3.0) (2024-11-05)
+
+
+### Features
+
+* ✨ bump `prettier-plugin-astro` to v0.14.1 ([3bcce45](https://github.com/jimmy-guzman/prettier-config/commit/3bcce459855ce996801c61a48050fca528382345))
+* ✨ bump `prettier-plugin-tailwindcss` to v0.6.8 ([a2a2ba5](https://github.com/jimmy-guzman/prettier-config/commit/a2a2ba587e26e290018c108248df8fcad0a1d106))
+
 # [1.2.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.1.0...v1.2.0) (2024-11-05)
 
 
