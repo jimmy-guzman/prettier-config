@@ -13,7 +13,7 @@ importers:
         version: 0.14.1
       prettier-plugin-tailwindcss:
         specifier: 0.6.8
-        version: 0.6.8(prettier-plugin-astro@0.14.1)(prettier@3.3.3)
+        version: 0.6.8(prettier-plugin-astro@0.14.1)(prettier@3.4.2)
     devDependencies:
       '@commitlint/config-conventional':
         specifier: 19.6.0
@@ -49,8 +49,8 @@ importers:
         specifier: 1.8.2
         version: 1.8.2
       prettier:
-        specifier: 3.3.3
-        version: 3.3.3
+        specifier: 3.4.2
+        version: 3.4.2
       semantic-release:
         specifier: 24.2.0
         version: 24.2.0(typescript@5.7.2)
@@ -1328,8 +1328,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2825,16 +2825,16 @@ snapshots:
   prettier-plugin-astro@0.14.1:
     dependencies:
       '@astrojs/compiler': 2.10.3
-      prettier: 3.3.3
+      prettier: 3.4.2
       sass-formatter: 0.7.9
 
-  prettier-plugin-tailwindcss@0.6.8(prettier-plugin-astro@0.14.1)(prettier@3.3.3):
+  prettier-plugin-tailwindcss@0.6.8(prettier-plugin-astro@0.14.1)(prettier@3.4.2):
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.2
     optionalDependencies:
       prettier-plugin-astro: 0.14.1
 
-  prettier@3.3.3: {}
+  prettier@3.4.2: {}
 
   pretty-ms@9.1.0:
     dependencies:
