@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.3.0...v1.4.0) (2025-03-08)
+
+
+### Bug Fixes
+
+* 🐛 bump `prettier-plugin-tailwindcss` to v0.6.11 ([2f220a1](https://github.com/jimmy-guzman/prettier-config/commit/2f220a1b21fc19ca3e0c921a9529a716a317a783))
+
+
+### Features
+
+* ✨ add support for `node` v22 ([c192a74](https://github.com/jimmy-guzman/prettier-config/commit/c192a74851bf4c274562d2e8dcf7313cae22567f))
+
 # [1.3.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.2.0...v1.3.0) (2024-11-05)
 
 
