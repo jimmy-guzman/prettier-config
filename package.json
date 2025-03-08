@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "prettier-plugin-astro": "0.14.1",
-    "prettier-plugin-tailwindcss": "0.6.8"
+    "prettier-plugin-tailwindcss": "0.6.11"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "19.8.0",
