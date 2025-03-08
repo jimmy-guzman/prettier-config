@@ -34,7 +34,7 @@
     "@semantic-release/release-notes-generator": "14.0.1",
     "clean-pkg-json": "1.2.0",
     "commitlint": "19.6.0",
-    "gitzy": "5.5.0",
+    "gitzy": "5.8.1",
     "is-ci": "3.0.1",
     "lefthook": "1.8.5",
     "prettier": "3.4.2",
