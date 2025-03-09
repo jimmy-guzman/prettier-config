@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.4.0...v1.5.0) (2025-03-09)
+
+
+### Features
+
+* ✨ add support for `pnpm` v10 ([72f8c12](https://github.com/jimmy-guzman/prettier-config/commit/72f8c1243a14a3da0fbaa17c139c4dc2b52c33db))
+* ✨ sort `package.json` w/ `sort-package-json` ([ac1bc18](https://github.com/jimmy-guzman/prettier-config/commit/ac1bc18569013e8fa538a620ad40fde70597e2c3))
+
 # [1.4.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.3.0...v1.4.0) (2025-03-08)
 
 
