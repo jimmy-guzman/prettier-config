@@ -12,6 +12,7 @@
 
 - Supports `tailwindcss` through [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 - Supports `astro` through [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)
+- Sorts `package.json` properties through [prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson)
 - Ignores `pnpm-lock.yaml`
 - Uses `prettier`'s defaults except for `quoteProps` which is set as `"consistent"`
 
