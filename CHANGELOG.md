@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.5.0...v1.6.0) (2025-06-28)
+
+
+### Features
+
+* ✨ bump `prettier-` plugins to latest ([#54](https://github.com/jimmy-guzman/prettier-config/issues/54)) ([6ea2677](https://github.com/jimmy-guzman/prettier-config/commit/6ea2677014177a1b00b3e4e1c318f5fa31710851))
+
 # [1.5.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.4.0...v1.5.0) (2025-03-09)
 
 
