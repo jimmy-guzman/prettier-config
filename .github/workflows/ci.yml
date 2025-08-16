@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: 🏗 Setup Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 Install
         uses: ./.github/actions/install
@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: 🏗 Setup Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -44,7 +44,7 @@ jobs:
 
     steps:
       - name: 🏗 Setup Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 🚨 Spellcheck
         uses: streetsidesoftware/cspell-action@v7
