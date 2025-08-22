@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/jimmy-guzman/prettier-config/compare/v2.0.0...v2.0.1) (2025-08-22)
+
+
+### Bug Fixes
+
+* 🐛 improve plugns discoverability ([#61](https://github.com/jimmy-guzman/prettier-config/issues/61)) ([31de95d](https://github.com/jimmy-guzman/prettier-config/commit/31de95d8c444a11926a340502822084b9bf56068))
+
 # [2.0.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.6.0...v2.0.0) (2025-08-22)
 
 
