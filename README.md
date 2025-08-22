@@ -17,6 +17,10 @@
 - Uses `prettier`'s defaults except for `quoteProps` which is set as `"consistent"`
 - [TypeScript prettier config file](https://prettier.io/docs/configuration#typescript-configuration-files) support
 
+> [!WARNING]  
+> [TypeScript prettier config file](https://prettier.io/docs/configuration#typescript-configuration-files) not yet supported in the VS Code Prettier extension — see [discussion](https://github.com/prettier/prettier-vscode/issues/3623).  
+> You can use a non-`.ts` extension (e.g. `.cjs` / `.mjs` / `.js`) to allow Prettier to pick up your config.
+
 ## 🛠️ Usage
 
 First you need to install `@jimmy.codes/prettier-config`, for example with `pnpm`:
