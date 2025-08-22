@@ -19,9 +19,11 @@
     "Parens",
     "pnpm",
     "prebuild",
+    "publint",
     "shellcheck",
     "streetsidesoftware",
     "tailwindcss",
+    "tsdown",
     "typecheck",
     "wagoid"
   ],

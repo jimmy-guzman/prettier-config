@@ -5,7 +5,7 @@
     "commands": {
       "format": {
         "glob": "*.{md,json,yml,js}",
-        "run": "pnpm exec prettier --config ./index.js --write {staged_files}",
+        "run": "pnpm exec prettier --config ./dist/index.js --write {staged_files}",
         "stage_fixed": true
       }
     }

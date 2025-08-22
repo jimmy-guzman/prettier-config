@@ -1,5 +1,6 @@
-/** @type {import("prettier").Options} */
-module.exports = {
+import { Config } from "prettier";
+
+export default {
   semi: true,
   singleQuote: false,
   printWidth: 80,
@@ -27,4 +28,4 @@ module.exports = {
     require.resolve("prettier-plugin-astro"),
     require.resolve("prettier-plugin-packagejson"),
   ],
-};
+} satisfies Config;
