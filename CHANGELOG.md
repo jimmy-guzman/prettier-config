@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.6.0...v2.0.0) (2025-08-22)
+
+
+### Features
+
+* ✨ add `TypeScript` config file support ([#59](https://github.com/jimmy-guzman/prettier-config/issues/59)) ([0eb17a2](https://github.com/jimmy-guzman/prettier-config/commit/0eb17a2a01e5c2bb599ae19bc69b6916941b6f86))
+
+
+### BREAKING CHANGES
+
+* 💥 this is now ESM only & Node.js>=22.6.0
+
 # [1.6.0](https://github.com/jimmy-guzman/prettier-config/compare/v1.5.0...v1.6.0) (2025-06-28)
 
 
