@@ -1,9 +1,4 @@
 import { Config } from "prettier";
-// @ts-expect-error no types available
-import * as astro from "prettier-plugin-astro";
-import * as tailwind from "prettier-plugin-tailwindcss";
-// @ts-expect-error no types available
-import sortPkg from "prettier-plugin-packagejson";
 
 export default {
   semi: true,
@@ -28,5 +23,9 @@ export default {
       },
     },
   ],
-  plugins: [astro, tailwind, sortPkg],
+  plugins: [
+    require.resolve("prettier-plugin-astro"),
+    require.resolve("prettier-plugin-tailwindcss"),
+    require.resolve("prettier-plugin-packagejson"),
+  ],
 } satisfies Config;
