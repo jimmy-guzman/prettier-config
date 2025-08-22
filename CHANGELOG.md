@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/jimmy-guzman/prettier-config/compare/v2.0.1...v2.0.2) (2025-08-22)
+
+
+### Bug Fixes
+
+* 🐛 add support for VSCode prettier extension ([#62](https://github.com/jimmy-guzman/prettier-config/issues/62)) ([c5c49e2](https://github.com/jimmy-guzman/prettier-config/commit/c5c49e237df7e12f6959cea208a872bb86238016))
+
 ## [2.0.1](https://github.com/jimmy-guzman/prettier-config/compare/v2.0.0...v2.0.1) (2025-08-22)
 
 
