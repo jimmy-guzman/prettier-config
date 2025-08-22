@@ -15,6 +15,7 @@
 - Sorts `package.json` properties through [prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson)
 - Ignores `pnpm-lock.yaml`
 - Uses `prettier`'s defaults except for `quoteProps` which is set as `"consistent"`
+- [TypeScript prettier config file](https://prettier.io/docs/configuration#typescript-configuration-files) support
 
 ## 🛠️ Usage
 
@@ -26,6 +27,40 @@ pnpm add -D @jimmy.codes/prettier-config
 
 Then you can add the `prettier` key to your `package.json`, like so:
 
-```diff
-+  "prettier": "@jimmy.codes/prettier-config",
+```json
+{
+  "prettier": "@jimmy.codes/prettier-config"
+}
+```
+
+Or you can create a custom Prettier `prettier.config.ts` file:
+
+```ts
+import type { Config } from "prettier";
+import base from "@jimmy.codes/prettier-config";
+
+const config = {
+  ...base,
+} satisfies Config;
+
+export default config;
+```
+
+### Tailwind CSS v4
+
+Tailwind v4 requires telling the Prettier plugin where your Tailwind stylesheet is.
+Because this path is project-specific, create a local Prettier config that extends this preset:
+
+```ts
+// prettier.config.ts
+import type { Config } from "prettier";
+
+import base from "@jimmy.codes/prettier-config";
+
+const config = {
+  ...base,
+  tailwindStylesheet: "./src/styles/global.css",
+} satisfies Config;
+
+export default config;
 ```
