@@ -1,11 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "semanticCommits": "enabled",
-  "reviewers": ["@jimmy-guzman"],
+  "reviewers": [
+    "@jimmy-guzman"
+  ],
   "commitMessageAction": "bump",
   "commitMessagePrefix": "chore: 🤖 ",
   "commitMessageTopic": "`{{depName}}`",
-  "labels": ["scope:deps", "type:chore"],
-  "schedule": ["every weekend"]
+  "labels": [
+    "scope:deps",
+    "type:chore"
+  ],
+  "schedule": [
+    "every weekend"
+  ]
 }
