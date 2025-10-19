@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/jimmy-guzman/prettier-config/compare/v2.0.2...v2.1.0) (2025-10-19)
+
+
+### Features
+
+* ✨ bump `prettier-plugin-tailwindcss` to v0.7.1 ([8535142](https://github.com/jimmy-guzman/prettier-config/commit/8535142301bdf00327401f799f01ec428f67679c))
+
 ## [2.0.2](https://github.com/jimmy-guzman/prettier-config/compare/v2.0.1...v2.0.2) (2025-08-22)
 
 
