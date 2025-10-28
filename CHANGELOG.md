@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/jimmy-guzman/prettier-config/compare/v2.1.0...v2.1.1) (2025-10-28)
+
+
+### Bug Fixes
+
+* 🐛 bring back support for node 20 ([#81](https://github.com/jimmy-guzman/prettier-config/issues/81)) ([e0991e3](https://github.com/jimmy-guzman/prettier-config/commit/e0991e396f137fc1cd3b994febc8e02a7a580569))
+
 # [2.1.0](https://github.com/jimmy-guzman/prettier-config/compare/v2.0.2...v2.1.0) (2025-10-19)
 
 
