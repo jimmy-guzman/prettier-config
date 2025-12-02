@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/jimmy-guzman/prettier-config/compare/v2.1.1...v2.1.2) (2025-12-02)
+
+
+### Bug Fixes
+
+* 🐛 bump deps ([#86](https://github.com/jimmy-guzman/prettier-config/issues/86)) ([b86d016](https://github.com/jimmy-guzman/prettier-config/commit/b86d0161f3960fdf4a005a53f9e732c1720297c7))
+
 ## [2.1.1](https://github.com/jimmy-guzman/prettier-config/compare/v2.1.0...v2.1.1) (2025-10-28)
 
 
